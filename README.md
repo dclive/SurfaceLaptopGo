@@ -1,9 +1,9 @@
 # SurfaceLaptopGo
 Surface Laptop Go bootable EFI
 Surface Laptop Go (2020, i5-1035G1) EFI for Hackintosh
-V1.10 EFI for Ventura (the issue: check airportitwlm if you use another MacOS version; otherwise, no issue)
+EFI for Ventura (the issue: check airportitwlm if you use another MacOS version; otherwise, no issue)
 
-All of this is vastly easier if you can work on and create the USB stick on a Macintosh. See my other guide (for example, the Asrock B660M-HDV guide) for full details; this is a high level overview only. The concepts are all exactly the same.
+All of this is much easier if you can work on and create the USB stick on a Macintosh. See my other guide (for example, the Asrock B660M-HDV guide) for full details; this is a high level overview only. The concepts are all exactly the same.
 
 Run GenSMBIOS to find/generate serials (https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#platforminfo), using MacbookAir9,1 as the SMBIOS of choice, as per the Dortania guide.
 
