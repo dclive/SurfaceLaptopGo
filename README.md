@@ -17,7 +17,7 @@ Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3c
 Tested with:  12.5.1.  That's it.  These are early days yet. 
 
 V1.01 Changes: 
-1.  Tested very briefly with 12.6.1.  Works great in quick tests. 
+1.  Tested very briefly with 12.6.1.  Works great in quick tests.  Note:  airportitwlm.kext DEPENDS ON your OS version.  So if you aren't running 12.x, you MUST change airportitwlm.kext version.  You may wish to keep airportitwlm.kext disabled while you get your OS set up. 
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01!  Note that in brief testing with 12.6.1, wake doesn't seem to work.  More testing is required.  Please provide any feedback you can. 
 
