@@ -12,7 +12,7 @@ Works: Video, audio, trackpad, touch, wifi, bluetooth.  As of v1.01: sleep/wake 
 
 Doesn't work: One should go into System Settings / Trackpad and unselect "Look up and data detectors", as (at least in 12.5.1) leaving this on caused cursor/trackpad irregularities in Finder. 
 
-Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3ca/Surface-Laptop-Go (for the Ice Lake i5-1035G1 graphics fix .plist), and https://github.com/Xiashangning/BigSurface (for better trackpad, sleep, power - although it seems not to work well at the moment).  Read all three and become familiar with the information in the articles. 
+Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3ca/Surface-Laptop-Go (for the Ice Lake i5-1035G1 graphics fix .plist), and https://github.com/Xiashangning/BigSurface (for better trackpad, sleep, power - and your USB mapping must be in place for this work well).  Read all three and become familiar with the information in the articles. 
 
 Tested with:  12.5.1.  That's it.  These are early days yet. 
 
