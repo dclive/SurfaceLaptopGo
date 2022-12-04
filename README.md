@@ -24,3 +24,5 @@ Overall,  a much better experience.  Get v1.01!  Note that in brief testing with
 For the moment, Ventura (MacOS v13.x) is not recommended, as some issues have been seen with BigSurface.kext in Ventura.  Please hold off updating until the issues are resolved.  For more details on the issue, read https://github.com/Xiashangning/BigSurface/issues/48
 
 Find the EFI folder in the RELEASES.  It's a zipfile.  It needs to go onto the EFI partition, in an EFI folder, with OC and BOOT as the two folders under that EFI folder. 
+
+** Alas, we've a regression.  Wake/sleep doesn't seem to function correctly, even after v1.01 and USB mapping.  At the moment I cannot explain.  More research and time will be required to fix. 
