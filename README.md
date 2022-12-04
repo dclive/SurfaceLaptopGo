@@ -8,9 +8,9 @@ Run GenSMBIOS to find/generate serials (https://dortania.github.io/OpenCore-Inst
 
 Put the EFI in place; use OCAT (https://github.com/ic005k/OCAuxiliaryTools) to help with mounting the EFI partition and similar copy operations.
 
-Works: Video, audio, trackpad, touch, wifi, bluetooth.
+Works: Video, audio, trackpad, touch, wifi, bluetooth.  As of v1.01: sleep/wake work as expected (a little slow, but it works fine), and after first wakeup, brightness works as expected (ie fully bright screen).  
 
-Doesn't work: Sleep (rather, wakeup) doesn't work. Typical screen brightness is only about 70% of normal.  Brightness controls work, but if set too low, cannot be then increased (requiring a power off/power on). Also, one should go into Trackpad and unselect "Look up and data detectors", as (at least in 12.5.1) leaving this on caused cursor/trackpad irregularities in Finder. 
+Doesn't work: One should go into Trackpad and unselect "Look up and data detectors", as (at least in 12.5.1) leaving this on caused cursor/trackpad irregularities in Finder. 
 
 Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3ca/Surface-Laptop-Go (for the Ice Lake i5-1035G1 graphics fix .plist), and https://github.com/Xiashangning/BigSurface (for better trackpad, sleep, power - although it seems not to work well at the moment).  Read all three and become familiar with the information in the articles. 
 
