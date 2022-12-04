@@ -14,8 +14,6 @@ Doesn't work: One should go into Trackpad and unselect "Look up and data detecto
 
 Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3ca/Surface-Laptop-Go (for the Ice Lake i5-1035G1 graphics fix .plist), and https://github.com/Xiashangning/BigSurface (for better trackpad, sleep, power - although it seems not to work well at the moment).  Read all three and become familiar with the information in the articles. 
 
-Next steps:  Fix sleep/wake issues, fix brightness issues.  Other than that, it's not a bad laptop. 
-
 Tested with:  12.5.1.  That's it.  These are early days yet. 
 
 V1.01 Changes: 
