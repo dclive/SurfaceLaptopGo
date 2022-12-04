@@ -24,7 +24,7 @@ Overall,  a much better experience.  Get v1.01!  Note that in brief testing with
 
 V1.10 Changes: 
 1.  Tested briefly with 13.01, Ventura.  airportitwlm.kext for VENTURA is in place; if you run another MacOS, you'll need to adjust this accordingly. 
-2.  -igfxblr in NVRAM added (thanks MarblesAreDelicious!) which fixes backlight not working AND sleep not waking due to backlight.  Seems likely sleep doesn't actually turn off the machine; I'm happy with this for now. If you'll travel for a bit and plan to place this in a travel bag, I'd power it off / shut it down first, rather than suspending/sleeping it.  
+2.  -igfxblr in NVRAM added (thanks MarblesAreDelicious!) which fixes backlight not working AND sleep not waking due to backlight.  Seems likely sleep doesn't actually turn off the machine, just the display; I'm happy with this for now. If you'll travel for a bit and plan to place this in a travel bag, I'd power it off / shut it down first, rather than suspending/sleeping it.  
 3.  Read #1 again.  To boot this successfully, you'll need either A>Ventura or B>To replace airportitwlm with some other version.  You've been warned!
 
 Find the EFI folder in the RELEASES.  It's a zipfile.  It needs to go onto the EFI partition, in an EFI folder, with OC and BOOT as the two folders under that EFI folder. 
