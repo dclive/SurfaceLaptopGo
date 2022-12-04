@@ -22,3 +22,5 @@ V1.01 Changes:
 1.  Tested with 12.6.1.
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01! 
+
+For the moment, Ventura (MacOS v13.x) is not recommended, as some issues have been seen with BigSurface.kext in Ventura.  Please hold off updating until the issues are resolved.  For more details on the issue, read https://github.com/Xiashangning/BigSurface/issues/48
