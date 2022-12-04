@@ -17,7 +17,7 @@ Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3c
 Tested with:  12.5.1.  That's it.  These are early days yet. 
 
 V1.01 Changes: 
-1.  Tested with 12.6.1.  Works great. 
+1.  Tested very briefly with 12.6.1.  Works great in quick tests. 
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01! 
 
