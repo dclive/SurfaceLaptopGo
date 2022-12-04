@@ -19,7 +19,7 @@ Next steps:  Fix sleep/wake issues, fix brightness issues.  Other than that, it'
 Tested with:  12.5.1.  That's it.  These are early days yet. 
 
 V1.01 Changes: 
-1.  Tested with 12.6.1.
+1.  Tested with 12.6.1.  Works great. 
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01! 
 
