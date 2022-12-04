@@ -23,7 +23,7 @@ V1.01 Changes:
 Overall,  a much better experience.  Get v1.01!  Note that in brief testing with 12.6.1, wake doesn't seem to work.  More testing is required.  Please provide any feedback you can. 
 
 V1.10 Changes: 
-1.  Tested briefly with 13.01, Ventura.  airportitwlm.kext for VENTURE is in place; if you run another MacOS, you'll need to adjust this accordingly. 
+1.  Tested briefly with 13.01, Ventura.  airportitwlm.kext for VENTURA is in place; if you run another MacOS, you'll need to adjust this accordingly. 
 2.  -igfxblr in NVRAM added (thanks MarblesAreDelicious!) which fixes backlight not working AND sleep not waking due to backlight.  Seems likely sleep doesn't actually turn off the machine; I'm happy with this for now. 
 3.  Read #1 again.  To boot this successfully, you'll need either A>Ventura or B>To replace airportitwlm with some other version.  You've been warned!
 
