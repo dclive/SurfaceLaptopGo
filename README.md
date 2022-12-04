@@ -9,7 +9,7 @@ Run GenSMBIOS to find/generate serials (https://dortania.github.io/OpenCore-Inst
 
 Put the EFI in place; use OCAT (https://github.com/ic005k/OCAuxiliaryTools) to help with mounting the EFI partition and similar copy operations.
 
-Works: Video, audio, trackpad, touch, wifi, bluetooth.  As of v1.01: sleep/wake work as expected (a little slow, but it works fine), and after first wakeup, brightness works as expected (ie fully bright screen).  
+Works: Video, audio, trackpad, touch, wifi, bluetooth.  As of v1.01: sleep/wake work as expected (a little slow, but it works fine).
 
 Doesn't work: One should go into System Settings / Trackpad and unselect "Look up and data detectors", as (at least in 12.5.1) leaving this on caused cursor/trackpad irregularities in Finder. 
 
