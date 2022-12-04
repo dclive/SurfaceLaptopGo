@@ -1,6 +1,6 @@
 # SurfaceLaptopGo
-Early Days - Surface Laptop Go bootable EFI
-First attempt: Surface Laptop Go (2020, i5-1035G1) EFI for Hackintosh
+Surface Laptop Go bootable EFI
+Surface Laptop Go (2020, i5-1035G1) EFI for Hackintosh
 
 All of this is vastly easier if you can work on and create the USB stick on a Macintosh. See my other guide (for example, the Asrock B660M-HDV guide) for full details; this is a high level overview only. The concepts are all exactly the same.
 
