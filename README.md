@@ -1,6 +1,6 @@
 # SurfaceLaptopGo
 
-Surface Laptop Go (2020, i5-1035G1) EFI for Hackintosh.
+**Surface Laptop Go (2020, i5-1035G1) EFI for Hackintosh.**
 
 This works for Ventura (the issue: check airportitwlm if you use another MacOS version; otherwise, no issue)
 
@@ -23,9 +23,14 @@ V1.01 Changes:
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01!  Note that in brief testing with 12.6.1, wake doesn't seem to work.  More testing is required.  Please provide any feedback you can. 
 
-V1.10 Changes: 
+**V1.10 Changes:** 
+
 1.  Tested briefly with 13.01, Ventura.  airportitwlm.kext for VENTURA is in place; if you run another MacOS, you'll need to adjust this accordingly. 
 2.  -igfxblr in NVRAM added (thanks MarblesAreDelicious!) which fixes backlight not working AND sleep not waking due to backlight.  Seems likely sleep doesn't actually turn off the machine, just the display; I'm happy with this for now. If you'll travel for a bit and plan to place this in a travel bag, I'd power it off / shut it down first, rather than suspending/sleeping it.  
 3.  Read #1 again.  To boot this successfully, you'll need either A>Ventura or B>To replace airportitwlm with some other version.  You've been warned!
 
-Find the EFI folder in the RELEASES.  It's a zipfile.  It needs to go onto the EFI partition, in an EFI folder, with OC and BOOT as the two folders under that EFI folder. 
+**Find the EFI folder in the RELEASES**.  It's a zipfile.  It needs to go onto the EFI partition, in an EFI folder, with OC and BOOT as the two folders under that EFI folder. 
+
+**Next things to test:**  -igfxdbeo in NVRAM settings to see if that resolves blank screen at boot up.  (Thanks u/Prize-Camera9254!)
+
+**Current annoyances:**  It appears the laptop never actually sleeps, it just disables the display when the lid is closed or MacOS tells it to sleep, leading to increased battery use / fan noise when the laptop should be sleeping but is instead simply running with the display off. 
