@@ -18,7 +18,7 @@ Made with help from the Dortania Ice Lake laptop guide, https://github.com/olm3c
 
 Tested with:  12.5.1, 12.6.1, 13.01.   
 
-V1.01 Changes: 
+V1.01 Changes:  (Old Version; don't use this)
 1.  Tested very briefly with 12.6.1.  Works great in quick tests.  Note:  airportitwlm.kext DEPENDS ON your OS version.  So if you aren't running 12.x, you MUST change airportitwlm.kext version.  You may wish to keep airportitwlm.kext disabled while you get your OS set up. 
 2.  USB Mapping put back in place.  Now sleep/wake works and after sleep, brightness is back and looks good!  Big improvement. 
 Overall,  a much better experience.  Get v1.01!  Note that in brief testing with 12.6.1, wake doesn't seem to work.  More testing is required.  Please provide any feedback you can. 
@@ -33,4 +33,6 @@ Overall,  a much better experience.  Get v1.01!  Note that in brief testing with
 
 **Next things to test:**  -igfxdbeo in NVRAM settings to see if that resolves blank screen at boot up.  (Thanks u/Prize-Camera9254!)
 
-**Current annoyances:**  It appears the laptop never actually sleeps, it just disables the display when the lid is closed or MacOS tells it to sleep, leading to increased battery use / fan noise when the laptop should be sleeping but is instead simply running with the display off. 
+**Current annoyances:**  It appears the laptop never actually sleeps, it just disables the display when the lid is closed or MacOS tells it to sleep, leading to increased battery use / fan noise when the laptop should be sleeping but is instead simply running with the display off.  
+
+Updating to OpenCore .87 using OCAT works flawlessly.
