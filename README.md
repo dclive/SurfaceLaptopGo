@@ -37,4 +37,4 @@ Overall,  a much better experience.  Get v1.01!  Note that in brief testing with
 
 Updating to OpenCore .87 using OCAT works flawlessly.  Using any of 13.0, 13.01, 13.1 is recommended.  Best and simplest is the latest, 13.1. 
 
-**FUTURE UPDATES:  As I've returned the SLG for performance reasons, there won't be any further development on this.  I'll keep it up for the time being.**  
+**FUTURE UPDATES:  As I've returned the SLG for performance reasons, there won't be any further development on this.  I'll keep it up for the time being.**  OC88+ is untested on this laptop, but based on experience elsewhere, I forsee no issues.  Test accordingly, though.
